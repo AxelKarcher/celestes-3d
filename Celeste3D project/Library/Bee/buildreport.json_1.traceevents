@@ -1,0 +1,445 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1673442227166065, "dur": 134396, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673442227166290, "dur": 8483, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673442227174777, "dur": 118783, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673442227293561, "dur": 6899, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673442227301592, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673442227205595, "dur":888, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227206490, "dur":103, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673442227206607, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673442227206623, "dur":407, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673442227207078, "dur":619, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227207697, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269340, "dur":555, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269895, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269910, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269912, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269919, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269920, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269927, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269928, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269936, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269937, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269941, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269942, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269949, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269950, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269958, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269959, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269967, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269968, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269975, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269976, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269986, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269987, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269993, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227269994, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270001, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270003, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270009, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270011, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270018, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270019, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270024, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270025, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270033, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270061, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227270090, "dur":2139, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673442227207010, "dur":696, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227207708, "dur":5456, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213174, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213178, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213283, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213285, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213346, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213419, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213471, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213506, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213573, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213618, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213678, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213718, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213769, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213809, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213858, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213896, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213946, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227213982, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227214121, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227214160, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227214209, "dur":8444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227222669, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227223809, "dur":3793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227227640, "dur":9228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227236872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227236880, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673442227237896, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673442227237935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673442227237944, "dur":20786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673442227258758, "dur":10621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227207520, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227207792, "dur":5388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213181, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213320, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213397, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213572, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213624, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213670, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213724, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213761, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213811, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213848, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213893, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213930, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227213980, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227214019, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227214120, "dur":51860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227265988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673442227266005, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673442227267407, "dur":1944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227207034, "dur":678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227207713, "dur":5454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213174, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213311, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213387, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213494, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213564, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213604, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213652, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213771, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213818, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213853, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213902, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213934, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227213984, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227214027, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227214179, "dur":16640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227230824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227230842, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673442227233876, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1673442227233913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227233917, "dur":14169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1673442227248129, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1673442227248180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673442227248190, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1673442227250918, "dur":18461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227207136, "dur":589, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227207726, "dur":5443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213175, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213312, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213383, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213457, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213509, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213547, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213624, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213661, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213709, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213744, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213789, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213835, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213891, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227213975, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227214021, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227214110, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227214162, "dur":47759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227261927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673442227261940, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673442227263448, "dur":5929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227207173, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227207730, "dur":5443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213175, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213306, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213505, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213574, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213636, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213674, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213725, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213760, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213805, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213841, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213891, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213930, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227213979, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227214011, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227214123, "dur":20261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227234389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227234399, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673442227235415, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1673442227235452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227235457, "dur":13890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1673442227249390, "dur":3412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1673442227252803, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673442227252878, "dur":16474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227207205, "dur":528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227207733, "dur":5441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213177, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213499, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213572, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213621, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213689, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213727, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213778, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213813, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213865, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213904, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213953, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227213988, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227214101, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227214149, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227214198, "dur":10534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227224740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227224755, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227227575, "dur":11586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227239171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227239185, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673442227244577, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673442227244625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673442227244632, "dur":5592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1673442227250267, "dur":19072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673442227207229, "dur":509, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673442227207738, "dur":5472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673442227213211, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673442227213385, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673442227213437, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1673442227213672, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673442227214119, "dur":37447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673442227251574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673442227251603, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673442227253354, "dur":16026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227207254, "dur":488, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227207742, "dur":5441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227213183, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1673442227213789, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227213854, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673442227213892, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227213949, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673442227213985, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227214114, "dur":19126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673442227233246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227233261, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673442227234674, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673442227234709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227234714, "dur":11131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673442227245885, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673442227245928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673442227245936, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673442227250578, "dur":18758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227207282, "dur":466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227207748, "dur":5428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227213178, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1673442227213526, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227213857, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673442227213897, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227213955, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673442227213992, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227214251, "dur":12617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673442227226878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227226897, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673442227228297, "dur":8078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673442227236380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227236387, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673442227237258, "dur":6015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1673442227243273, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227243617, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673442227243696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673442227243706, "dur":6307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673442227250070, "dur":19267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227207325, "dur":428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227207754, "dur":5423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213178, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213305, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213381, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213592, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213645, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213692, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213744, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213782, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213831, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213874, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213931, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227213969, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227214017, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227214182, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227214302, "dur":10719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227225026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227225038, "dur":7756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227232830, "dur":1231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673442227234062, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227234118, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1673442227234155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673442227234160, "dur":35129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1673442227269312, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1673442227269314, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227207360, "dur":397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227207758, "dur":5421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213182, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213507, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213572, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213618, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213686, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213727, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213779, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213814, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213864, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213900, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213949, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227213987, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227214093, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227214272, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227214333, "dur":8530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227222869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227223949, "dur":4642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227228622, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227228654, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227228710, "dur":3668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232379, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232457, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232499, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232637, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232680, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232736, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232777, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232825, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232859, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232907, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232942, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227232990, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233025, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233108, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233144, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233195, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233227, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233273, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233307, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233351, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233382, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233423, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233453, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233502, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233537, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233580, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233611, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233651, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233785, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233836, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227233942, "dur":10697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1673442227244677, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1673442227244718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673442227244724, "dur":5716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1673442227250485, "dur":18850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227207387, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227207766, "dur":5547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213313, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213409, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213465, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213503, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213746, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213786, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213841, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213886, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213933, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227213974, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227214027, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227214117, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227214177, "dur":15953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227230139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227230159, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227232973, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233008, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233080, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233129, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233186, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233223, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233270, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233302, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233348, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233380, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233429, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233464, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233533, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233570, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227233622, "dur":18617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227252245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673442227252256, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673442227253362, "dur":15981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673442227207414, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673442227207773, "dur":5526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673442227213300, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1673442227213381, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673442227213436, "dur":27309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D.exe" }}
+,{ "pid":12345, "tid":13, "ts":1673442227240746, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673442227240821, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1673442227240910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1673442227240932, "dur":9989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1673442227250955, "dur":18398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227207462, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227207779, "dur":5517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213298, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213399, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213453, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213494, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213568, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213615, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213667, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213703, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213755, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213797, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213857, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213896, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213957, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227213994, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227214104, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227214164, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227214211, "dur":21448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227235683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227235695, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1673442227236677, "dur":6853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1673442227243532, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227243620, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1673442227243670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1673442227243706, "dur":6793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/level1" }}
+,{ "pid":12345, "tid":14, "ts":1673442227250546, "dur":18830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227207511, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227207786, "dur":5477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213264, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213340, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213400, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213499, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213573, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213621, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227213690, "dur":38808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673442227252503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1673442227252520, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1673442227253594, "dur":15744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227207105, "dur":613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227207719, "dur":5447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213175, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213320, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213385, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213467, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213521, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213577, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213630, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213672, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213785, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213833, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213882, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213917, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213960, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227213997, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227214098, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227214139, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227214188, "dur":19267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227233460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227233473, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":16, "ts":1673442227234746, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1673442227234783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1673442227234787, "dur":24105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/axtoc/Desktop/Dev/Unity/Celeste3D v0.1/Celeste3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1673442227258914, "dur":10464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673442227273275, "dur":1191, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1673442227301756, "dur": 2670, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673442227301566, "dur": 2908, "ph": "X", "name": "Write chrome-trace events", "args": {} },
